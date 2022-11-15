@@ -273,12 +273,12 @@ body{
 
 .details .recentOrders {
     position: relative;
+    padding: 20px;
+    background: var(--white);
+    border-radius: 20px;
     display: grid;
     min-height: 500px;
-    background: var(--white);
-    padding: 20px;
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
-    border-radius: 20px;
 }
 
 .details .cardHeader{
@@ -335,4 +335,40 @@ body{
   }
   .details .recentOrders table tr td:nth-child(3) {
     text-align: center;
+  }
+
+  .status.called{
+    padding: 2px 4px;
+    background: #5a22b4;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .status.pending{
+    padding: 2px 4px;
+    background: #f00;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .status.sale{
+    padding: 2px 4px;
+    background: rgb(10, 211, 37);
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .status.inProgress{
+    padding: 2px 4px;
+    background: rgb(36, 112, 211);
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
   }
